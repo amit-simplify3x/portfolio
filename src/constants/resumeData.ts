@@ -63,7 +63,7 @@ export const resumeData = {
             tech: ["React", "Tailwind", "Firebase", "OpenAI API", "TMDB API"],
             links: {
                 github: "https://github.com/am12it/netflix-gpt",
-                // live: "#",
+                live: "#",
             },
         },
         {
@@ -72,7 +72,7 @@ export const resumeData = {
             tech: ["Node.js", "Express.js", "MongoDB", "React"],
             links: {
                 github: "https://github.com/am12it/expense-tracker",
-                // live: "#",
+                live: "#",
             },
         },
     ],

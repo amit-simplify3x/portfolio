@@ -28,7 +28,7 @@ const Projects: React.FC = () => {
                                     <Github size={18} />
                                 </a>
                                 <a
-                                    href={project.links.live}
+                                    href={project?.links?.live}
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="p-2 rounded-full bg-dark-bg/80 border border-white/10 text-slate-300 hover:text-white transition-colors"
