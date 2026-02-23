@@ -8,12 +8,13 @@ export const resumeData = {
         github: "https://github.com/am12it",
         linkedin: "https://linkedin.com/in/am12it",
     },
+    resumeUrl: "https://drive.google.com/file/d/13LVDQio4tO0wu2s9Hfv3WRik-YbPanO-/view?usp=sharing",
     summary:
-        "Fullstack Developer with 2 years of experience in building scalable web applications. Skilled in HTML, CSS, TypeScript, JavaScript, Angular, Node.js, and Express.js, with expertise in creating responsive UIs and efficient backend APIs. Passionate about delivering high-quality solutions and learning new technologies.",
+        "Fullstack Developer with 2 years of experience in building scalable web applications. Skilled in HTML, CSS, TypeScript, JavaScript, React, Next.js, Node.js, and Express.js, with expertise in creating responsive UIs and efficient backend APIs. Passionate about delivering high-quality solutions and learning new technologies.",
     skills: [
         {
             category: "Frontend",
-            items: ["Angular", "Next.js", "React", "TypeScript", "JavaScript", "Tailwind CSS", "HTML5", "CSS3"],
+            items: ["Next.js", "React", "TypeScript", "JavaScript", "Tailwind CSS", "HTML5", "CSS3"],
         },
         {
             category: "Backend",
@@ -35,12 +36,12 @@ export const resumeData = {
             location: "Bengaluru, India",
             duration: "Jan 2024 - Present",
             achievements: [
-                "Developed and implemented dynamic patient-facing modules (appointment booking, symptom/vitals tracking, billing, and feedback) using Angular.",
+                "Developed and implemented dynamic patient-facing modules (appointment booking, symptom/vitals tracking, billing, and feedback) using React.",
                 "Built responsive, HIPAA-compliant web interfaces for patient engagement, monitoring, and education.",
                 "Integrated REST APIs and third-party services for scheduling, payment gateways, and medical content delivery.",
                 "Created and integrated RESTful APIs with Node, Mysql, and Next.js for CRUD operations, increasing efficiency by 40%.",
                 "Developed UI for Dr. Reddy's plant, allowing users to streamline medicine production planning and reduce manual efforts by up to 50%.",
-                "Designed and developed the frontend for RMG timesheet tool using Angular to track employee work hours.",
+                "Designed and developed the frontend for RMG timesheet tool using React to track employee work hours.",
             ],
         },
         {
@@ -58,20 +59,20 @@ export const resumeData = {
     projects: [
         {
             title: "Netflix-GPT",
-            description: "Developed and deployed a Netflix-like web application using Angular and Tailwind CSS. Implemented secure user authentication, profile management, and form validation with Firebase. Enhanced user experience with responsive design, Redux state management, and multilingual support. Integrated TMDB API for movie data and OpenAI GPT API for an intelligent search bar with real-time movie suggestions.",
-            tech: ["Angular.js", "Tailwind", "Firebase", "OpenAI API", "TMDB API"],
+            description: "Developed and deployed a Netflix-like web application using React and Tailwind CSS. Implemented secure user authentication, profile management, and form validation with Firebase. Enhanced user experience with responsive design, Redux state management, and multilingual support. Integrated TMDB API for movie data and OpenAI GPT API for an intelligent search bar with real-time movie suggestions.",
+            tech: ["React", "Tailwind", "Firebase", "OpenAI API", "TMDB API"],
             links: {
                 github: "https://github.com/am12it/netflix-gpt",
-                live: "#",
+                // live: "#",
             },
         },
         {
             title: "Expense Management System",
             description: "Developed an Expense Tracker which keep track of users Income and expenses in Category wise like-Weekly, Monthly and Yearly. Features include Login/Registration functionality with validation and graphical representation of expenses, displaying income and expenses in a visual format (e.g., charts and graphs) for better financial insights.",
-            tech: ["Node.js", "Express.js", "MongoDB", "Angular"],
+            tech: ["Node.js", "Express.js", "MongoDB", "React"],
             links: {
                 github: "https://github.com/am12it/expense-tracker",
-                live: "#",
+                // live: "#",
             },
         },
     ],
